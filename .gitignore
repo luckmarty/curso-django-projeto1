@@ -128,3 +128,6 @@ gunicorn-error-log
 db.sqlite3
 db copy.sqlite3
 static/
+
+# Add again fof course purpose (usado para o .ignore, ignorar o envio do sqlite3)
+!db.sqlite3
