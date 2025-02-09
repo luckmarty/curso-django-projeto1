@@ -5,7 +5,7 @@ from django.shortcuts import render
 
 
 def home(request):
-    return HttpResponse('Home')
+    return render(request, 'recipes/home.html')
 
 
 def contato(request):
@@ -13,4 +13,5 @@ def contato(request):
 
 
 def sobre(request):
+    return HttpResponse('sobre')
     return HttpResponse('sobre')
